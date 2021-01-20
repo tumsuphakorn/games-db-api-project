@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="/games-db-api-project">
         <NavBar />
         <Route path="/" exact component = { GamePage } />
         <Route path="/page/:page" render={(props) => <GamePage {...props} key={Date.now()} />} />
