@@ -5,9 +5,112 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100vw;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b2c85;
+}
+
+.nav-bar h2 {
+  color: white;
+  margin: 0 15px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 200;
+}
+
+.games-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.games-page {
+  padding: 1vh 5vw;
+  margin-top: 60px;
+}
+
+.page-navigator {
+  margin: 2vh 0 3vh;
+}
+
+.page-navigator a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  padding: 1vh 1vw;
+  background-color: #3b2c85;
+  border-radius: 10px;
+  margin: 0 1vw;
+}
+
+.game-card h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 0;
+}
+
+.game-card a {
+  text-decoration: none;
+  color: #3b2c85;
+}
+
+.game-desc {
+  color: white;
+  padding: 2vh 15vw;
+  margin-top: 60px;
+}
+
+.game-desc img {
+  max-width: 100%;
+  border-radius: 30px;
+  margin: 0 auto 25px;
+}
+
+.rating-text {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+.visit-website {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-website a {
+  color: orange;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0 10px;
+}
+
+.store-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.store-list a {
+  color: orange;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0 10px;
 }
