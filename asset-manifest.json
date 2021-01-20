@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/games-db-api-project/static/css/main.4919aacd.chunk.css",
-    "main.js": "/games-db-api-project/static/js/main.a63a0c7b.chunk.js",
-    "main.js.map": "/games-db-api-project/static/js/main.a63a0c7b.chunk.js.map",
+    "main.js": "/games-db-api-project/static/js/main.8844928d.chunk.js",
+    "main.js.map": "/games-db-api-project/static/js/main.8844928d.chunk.js.map",
     "runtime-main.js": "/games-db-api-project/static/js/runtime-main.99bcea0d.js",
     "runtime-main.js.map": "/games-db-api-project/static/js/runtime-main.99bcea0d.js.map",
     "static/js/2.4d768c7a.chunk.js": "/games-db-api-project/static/js/2.4d768c7a.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.99bcea0d.js",
     "static/js/2.4d768c7a.chunk.js",
     "static/css/main.4919aacd.chunk.css",
-    "static/js/main.a63a0c7b.chunk.js"
+    "static/js/main.8844928d.chunk.js"
   ]
 }
